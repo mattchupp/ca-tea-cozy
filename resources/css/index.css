@@ -1,0 +1,54 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+}
+
+#opacity {
+  opacity: 0.9;
+}
+
+
+header {
+  display: flex;
+  /*align-items: center;*/
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  width: 100%;
+}
+
+header h1 {
+  font-family: serif;
+  /*font-family: cursive;*/
+  min-width: 300px;
+  height: 50px;
+  padding-left: 10px;
+  align-self: center;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  margin-left: 30px;
+}
+
+nav span {
+  padding-right: 10px;
+}
+
+nav span a {
+  color: seashell;
+}
+
+
+header p {
+  color: MediumAquamarine;
+  padding-left: 10px;
+}
