@@ -12,19 +12,68 @@ body {
   margin: 0 auto;
 }
 
+#tea-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 #mission-background {
   background-image: url("../img-mission-background.jpg");
   height: 700px;
   max-width: 1200px;
   position: relative;
   top: 70px;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
 #mission-header {
-  /*display: absolute;*/
-  text-align: center;
+  width: 100%;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mission-header h2 {
+  margin-bottom: 0px;
+}
+
+.flex {
+  display: flex;
+}
+
+.box img {
+  width: 300px;
+  height: 200px;
+}
+
+.box h4 {
+  margin-top: 10px;
+}
+
+#tea-boxes {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center; 
+}
+
+
+#featured-tea {
+  position: relative;
+  top: 120px;
+}
+
+#featured-tea h2 {
+  text-align: center;
+}
+
+#featured-tea h4 {
+  text-align: center;
+}
+
+#mission {
+  /*display: flex;*/
 }
 
 header {
