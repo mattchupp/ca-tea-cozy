@@ -125,8 +125,12 @@ body {
   margin-right: 40px;
 }
 
+#margin-left {
+  margin-left: 20px;
+}
+
 .opacity-1 {
-  opacity: 1; 
+  opacity: 1;
 }
 
 
@@ -147,6 +151,11 @@ header h1 {
   height: 50px;
   padding-left: 10px;
   align-self: center;
+}
+
+footer {
+  height: 200px;
+  text-align: center;
 }
 
 nav {
