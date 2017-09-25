@@ -54,8 +54,16 @@ body {
 
 #tea-boxes {
   justify-content: space-between;
-  flex-wrap: wrap;
-  align-content: center; 
+  align-content: center;
+}
+
+#tea-boxes-2 {
+  justify-content: center;
+  align-content: center;
+}
+
+#tea-boxes-2 .right-margin {
+  margin-right: 50px;
 }
 
 
@@ -72,9 +80,55 @@ body {
   text-align: center;
 }
 
-#mission {
-  /*display: flex;*/
+
+#location-background {
+  background-image: url("../img-locations-background.jpg");
+  height: 500px;
+  max-width: 1200px;
+  position: relative;
+  margin-top: 175px;
+  display: flex;
+  align-items: center;
 }
+
+#location-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#location-header h2 {
+  text-align: center;
+}
+
+#location-header h3 {
+  text-align: center;
+}
+
+#location-header h4 {
+  text-align: center;
+}
+
+#location-boxes {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+#l-box {
+  background-color: black;
+  width: 300px;
+}
+
+#location-boxes .right-margin {
+  margin-right: 40px;
+}
+
+.opacity-1 {
+  opacity: 1; 
+}
+
 
 header {
   display: flex;
